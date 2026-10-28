@@ -25,13 +25,16 @@ Project Objectives
 Data Sources
 The dataset contains transactional data including customer purchases, product categories, quantity, price, and invoice dates. This data is used to track customer activity and build cohorts.
 
-Data Preprocessing
-•	Cleaned missing and inconsistent data 
-•	Converted date columns to datetime format 
-•	Created new features such as Revenue (Quantity × Price) 
-•	Extracted Month and Year from transaction dates 
-•	Built Cohort Month and Cohort Index for retention analysis 
-•	Filtered and cleaned product category data 
+
+## Data Preprocessing
+
+• Data cleaning:** Checked data quality and prepared the dataset for analysis, addressing relevant missing values and inconsistencies.
+• Date conversion:** Converted `InvoiceDate` to datetime format to support time-based analysis.
+• Revenue calculation:** Created a `Sales` feature by multiplying `Quantity` by `UnitPrice` for customer monetary value analysis.
+• Time-based features:** Extracted monthly and yearly transaction periods to analyse purchasing trends over time.
+• Cohort analysis:** Created `CohortMonth` and `CohortIndex` to group customers by their first purchase month and measure  retention across subsequent months.
+• Customer segmentation:** Engineered customer-level features, including recency, frequency, monetary value, product variety and average order value, for K-means clustering.
+• Data preparation:** Reviewed relevant product descriptions and transaction records to ensure they were suitable for the   planned analysis.
 
 Machine Learning Model
 Customer segmentation was performed using RFM (Recency, Frequency, Monetary) analysis combined with K-Means clustering.
