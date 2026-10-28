@@ -15,11 +15,6 @@ Project Overview
 This project uses cohort analysis and customer segmentation to understand customer behavior over time. The goal is to analyze retention patterns, identify churn, and uncover insights that can improve customer engagement and business performance.
 
 Project Objectives
-•	Analyze customer behavior using cohort analysis 
-•	Measure customer retention over time 
-•	Identify when customers stop engaging (churn) 
-•	Segment customers based on purchasing behavior 
-•	Provide insights to improve retention and revenue 
 
 - **Analyse customer purchasing behaviour** to understand transaction patterns and changes in purchasing activity over time.
 - **Measure customer retention** by grouping customers into monthly cohorts based on their first purchase and tracking their subsequent purchasing activity.
