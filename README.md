@@ -21,6 +21,12 @@ Project Objectives
 •	Segment customers based on purchasing behavior 
 •	Provide insights to improve retention and revenue 
 
+- **Analyse customer purchasing behaviour** to understand transaction patterns and changes in purchasing activity over time.
+- **Measure customer retention** by grouping customers into monthly cohorts based on their first purchase and tracking their subsequent purchasing activity.
+- **Examine customer disengagement patterns** by identifying changes in repeat purchasing and retention across cohorts.
+- **Segment customers based on purchasing behaviour** using features such as recency, frequency, monetary value, product variety and average order value, applying K-means clustering.
+- **Generate actionable business insights** to inform customer retention strategies, targeted marketing and opportunities to improve customer lifetime value and revenue.
+
 Data Sources
 The dataset contains transactional data including customer purchases, product categories, quantity, price, and invoice dates. This data is used to track customer activity and build cohorts.
 
