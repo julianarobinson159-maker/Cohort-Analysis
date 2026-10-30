@@ -30,7 +30,7 @@ The dataset contains transactional data including customer purchases, product ca
 
 - **Data cleaning:** Checked data quality and prepared the dataset for analysis, addressing relevant missing values and inconsistencies.
 - **Date conversion:** Converted `InvoiceDate` to datetime format to support time-based analysis.
-- ** Revenue calculation:** Created a `Sales` feature by multiplying `Quantity` by `UnitPrice` for customer monetary value analysis.
+- **Revenue calculation:** Created a `Sales` feature by multiplying `Quantity` by `UnitPrice` for customer monetary value analysis.
 - **Time-based features:** Extracted monthly and yearly transaction periods to analyse purchasing trends over time.
 - **Cohort analysis:** Created `CohortMonth` and `CohortIndex` to group customers by their first purchase month and measure  retention across subsequent months.
 - **Customer segmentation:** Engineered customer-level features, including recency, frequency, monetary value, product variety and average order value, for K-means clustering.
