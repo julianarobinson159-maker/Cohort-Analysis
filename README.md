@@ -3,11 +3,11 @@
 ##Table of Contents 
 -[Proiect overview](#proiect-overview) 
 -[Proiect_Objective](#project-obiective).
--[Data_Soursesl](#data-sourses).
+-[Data_Sourses](#data-sourses).
 -[Data Preprocessing](#data-preprocessing), 
 -[Machine Learning_Model](#machine-learning-model). 
 -[Evalvation Metrics](#evaluation-metrics). 
--[Key Insiehts1](#Key-insigh8) 
+-[Key Insights1](#Key-insigh8) 
 -[Conclusion](#conclusion).
 
 
